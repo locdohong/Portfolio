@@ -1,0 +1,12 @@
+.resume {
+  border-top: 1px solid var(--border-color);
+  padding-bottom: 64px;
+}
+
+.resume h1 {
+  text-align: center;
+  margin: 64px 0 32px;
+  color: var(--color-body-white);
+  font-size: 48px;
+  font-weight: 700;
+}

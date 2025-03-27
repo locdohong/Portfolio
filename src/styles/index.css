@@ -1,0 +1,140 @@
+:root {
+  --color-primary: #c43302;
+  --color-secondary: #f4f5f6;
+  --color-tertiary: #0d1013;
+  --color-gray: #f6f6f6;
+  --bg-color: #ecf0f3;
+  --color-body: #878e99;
+  --color-body-white: #3c3e41;
+  --color-heading-wv: #1e2125;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+  --shadow-white-3: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
+  --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+  --border-color: #dce1e4;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  background-color: var(--bg-color);
+  position: relative;
+}
+
+.box_shadow {
+  box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1);
+}
+
+/* Scroll Top */
+.scroll_top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--gradient-box-w);
+  z-index: 999;
+  cursor: pointer;
+  display: none;
+}
+.scroll_top.active {
+  display: block;
+}
+
+.scroll_top:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+  box-shadow: unset;
+}
+
+.scroll_top:hover i {
+  color: #fff;
+}
+
+.scroll_top i {
+  color: var(--color-primary);
+  font-size: 24px;
+}
+
+/* Alert */
+
+.toast {
+  animation: toastAppear 0.3s ease-in-out forwards;
+}
+
+@keyframes toastAppear {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: var(--color-primary);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  animation: toastProgress 3s linear forwards;
+}
+
+@keyframes toastProgress {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+footer {
+  padding: 48px;
+  border-top: 1px solid var(--border-color);
+}
+
+footer p {
+  color: var(--color-body-white);
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Header */
+@import url("./header.css");
+
+/* Introduction */
+@import url("./introduction.css");
+
+/* About */
+@import url("./about.css");
+
+/* Project */
+@import url("./projects.css");
+@import url("./project_modal.css");
+
+/* Resume */
+@import url("./resume.css");
+
+/* Contact */
+@import url("./contact.css");
