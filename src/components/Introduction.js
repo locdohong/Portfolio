@@ -66,7 +66,7 @@ const Introduction = () => {
             </h1>
             <p>
               Passionate Software Developer with expertise in front-end and
-              back-end development using Java, Flutter, C##,
+              back-end development using Java, Flutter, C#,
                and SQL. Demonstrated ability to contribute to
               cutting-edge projects and deliver impactful results.
             </p>

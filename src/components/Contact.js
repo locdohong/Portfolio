@@ -20,13 +20,13 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await emailjs
-      .send("service_sx9et1d", "template_m1uzpnb", {
+      .send("service_tla0mgh", "template_5nlqbcb", {
         user_name: email.user_name,
         user_email: email.user_email,
         subject: email.subject,
         message: email.message,
         to_email: "locdohong@gmail.com", 
-      }, "zeJiPDed-WHpIVgqf")
+      }, "pEYSKO0-kCKgGxGfI")
       .then(
         () => {
           setEmail({

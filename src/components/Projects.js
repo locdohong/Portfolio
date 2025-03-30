@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Project1 from "../images/project_1.png";
 import Project2 from "../images/project_2.png";
-import Project3 from "../images/project_3.png";
+import Project3 from "../images/project_3.jpg";
 import Project6 from "../images/project_6.png";
 import Project7 from "../images/project_7.png";
 import Project8 from "../images/project_8.png";
@@ -46,7 +46,7 @@ const projects = [
     desc: "Gain a better understanding of how to design systems, manage client-server connections, and process data in a network environment.",
     technologies:
       "Java Swing, MySQL, Client-Server, TCP",
-    date: "September 2024 - October",
+    date: "September 2024 - October 2024",
     width: "100%",
     headerSize: "30px",
     descSize: "16px",
@@ -61,14 +61,14 @@ const projects = [
     date: "September 2024 - October 2024",
   },
   {
-    name: "Mobile App Fast Food Ordering System",
+    name: "Desktop App Restaurant Management",
     image: Project3,
-    link: "https://github.com/NHViet03/Mobile-App_Social_Network",
-    members: 1,
-    desc: "Developed a mobile social network app featuring CRUD operations for posts and users, real-time notifications, messaging, and active status indicators.",
+    link: "https://github.com/thinhbosua123/Restaurant-Management",
+    members: 2,
+    desc: "The system helps users more easily organize and manage Customer data, manage Table Reservations, manage Menus,... and much more..",
     technologies:
-      "Flutter, Dart, C++, CMake, Firebase",
-    date: "November 2024 - December 2024",
+      "Java, JavaSwing, Oracle",
+    date: "February 2025 - March 2025",
     maxImageHeight: "350px",
   },
  
