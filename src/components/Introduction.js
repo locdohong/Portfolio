@@ -13,7 +13,7 @@ const Introduction = () => {
     {
       name: "GitHub",
       icon: "fa-brands fa-github",
-      link: "https://github.com/thinhbosua123",
+      link: "https://github.com/locdohong",
     },
     {
       name: "Facebook",

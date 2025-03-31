@@ -2,7 +2,7 @@ import React from "react";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 
-import MyResume from "../documents/CV - Do Hong Loc.pdf";
+import MyResume from "../documents/cv.pdf";
 
 // Import styles
 import "@react-pdf-viewer/core/lib/styles/index.css";

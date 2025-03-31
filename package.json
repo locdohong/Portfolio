@@ -2,7 +2,7 @@
   "name": "my_portforlio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thinhbosua123.github.io/Portfolio/",
+  "homepage": "https://locdohong.github.io/Portfolio/",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@react-pdf-viewer/core": "^3.12.0",
